@@ -21,6 +21,7 @@ jobs:
       - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@v4
         with:
+         branch: nettyfish
          folder: out # The folder the action should deploy.
 
   publish-npm:
